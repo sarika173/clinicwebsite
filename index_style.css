@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    background: url('./index_bkg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgba(182, 186, 190, 0.8);
+    padding: 10px;
+    text-align: right;
+}
+
+.logout-btn {
+    color: rgb(36, 111, 160);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 100px;
+    background-color: rgba(204, 206, 184, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    color: #333;
+    font-size: 2.5em;
+}
+
+.header p {
+    color: #777;
+    font-size: 1.2em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.option {
+    text-align: center;
+}
+
+.option h2 {
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 40px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+}
